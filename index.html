@@ -1,53 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Gallery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .project {
-            margin: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-            width: 300px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .project img {
-            width: 100%;
-            height: auto;
-        }
-        .project-description {
-            padding: 16px;
-        }
-    </style>
+ <title>My Gallery</title>
+ <meta http-equiv="Content-Type"
+ content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style3.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 </head>
+
+
 <body>
-    <div class="project">
-        <video controls>
-            <source src="CircuitCalculator.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="project-description">
-            <h3>AutoChef</h3>
-            <p>A 4-in-1 cooking appliance that automates stirring, dispensing ingredients, and cooking.</p>
-        </div>
-    </div>
-    <div class="project">
-        <img src="path_to_your_image2.jpg" alt="Project Image 2">
-        <div class="project-description">
-            <h3>Solar-Powered Smartphone Charging Station</h3>
-            <p>A solar-powered charging station installed at IIUM.</p>
-        </div>
-    </div>
-    <!-- Add more project divs as needed -->
+ 
+<div id="header">
+ 	<h1>My Gallery</h1>
+	<p>welcome</p>	     
+</div><!--end of header-->
+
+<div id="navigation">
+	<ul class="hlist">
+ 		<li><a href="profile.html">My Gallery</a></li>
+		<li><a href="app.html">My App</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+	
+	</ul>
+</div><!--end of navigation-->
+ 
+
+<div id="bodycontent">
+ 	<h3>This is my artwork! enjoy </h2>
+
+	<div class="galleryphoto">
+      <video  width="400" heigth="258" controls><source src="gallery\composite0001-0090.mov" ></video>
+
+ 	</div>
+	       
+</div><!--end of content-->
+
 </body>
 </html>
