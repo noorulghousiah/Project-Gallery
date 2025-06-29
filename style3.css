@@ -59,6 +59,15 @@ ul.hlist {
     margin: 0;
     list-style: none;
 }
+
+#toc li {
+    font-size: small;
+    list-style-type: none;
+    padding: 0.5em 2em;
+    margin-top: 0.5em;
+    background: none; /*  background for list items */
+    border-radius: 4px; /* Rounded corners for list items */
+}
 h1 {
     margin: 0;
     padding: 1em 10%;
@@ -115,7 +124,7 @@ video {
 #toc {
     width: 100%;
     padding: 0.5em 0;
-    background: rgba(255, 120, 203, 0.3); /* background */
+    background: rgba(240, 230, 140, 0.3); /* background */
     display: flex;
     justify-content: center;
     align-items: center;
