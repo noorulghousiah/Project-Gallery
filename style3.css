@@ -51,6 +51,14 @@ ul.hlist {
     padding: 1em 0; /* Padding around the list */
 }
 
+#toc ul.hlist {
+    display: flex;            /* Required to activate Flexbox */
+    flex-direction: column;   /* Stack items vertically */
+    align-items: center;      /* Center items horizontally */
+    padding: 1em 0;
+    margin: 0;
+    list-style: none;
+}
 h1 {
     margin: 0;
     padding: 1em 10%;
