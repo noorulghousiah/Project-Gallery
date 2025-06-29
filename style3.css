@@ -104,6 +104,16 @@ video {
     border-bottom: 2px solid #FF4081; /* Pink border at the bottom */
 }
 
+#toc {
+    width: 100%;
+    padding: 0.5em 0;
+    background: rgba(255, 120, 203, 0.3); /* background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #FF4081; /* Pink border at the bottom */
+}
+
 .galleryphoto {
     padding: 1em;
     display: flex;
