@@ -147,10 +147,10 @@ video {
     border-bottom: 2px solid #FF4081; /* Pink border at the bottom */
 }
 
-#header, #navigation {
+/*#header, #navigation {
   border-left: 2px solid red;
   border-right: 2px solid red;
-}
+} */  /* This is just to troubleshoot*/
 
 #toc {
     width: 100%;
